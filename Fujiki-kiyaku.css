@@ -1,0 +1,15 @@
+.main{
+  padding-bottom: 200px;
+  text-align: center;
+}
+
+.intro-section{
+  text-align: center;
+}
+
+.logo {
+  padding-left: 100px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}

@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <link rel="stylesheet" href="Fujiki-reset.css">
+    <link rel="stylesheet" href="Fujiki-style.css">
+    <title>アトリエ藤木</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>    
+
+<script>
+jQuery(document).ready(function() {
+var offset = 100;
+var duration = 500;
+jQuery(window).scroll(function() {
+if (jQuery(this).scrollTop() > offset) {
+jQuery('.pagetop').fadeIn(duration);
+} else {
+jQuery('.pagetop').fadeOut(duration);
+}
+});
+
+jQuery('.pagetop').click(function(event) {
+event.preventDefault();
+jQuery('html, body').animate({scrollTop: 0}, duration);
+return false;
+})
+});
+</script>
+  </head>
+  <body>
+    <header class="page-header">
+      <div class="page-header__inr inr">
+        <h1 class="page-header__logo">
+          <img class="image1" src="image0 2.PNG" alt="そうまが作ったやつ">
+        </h1>
+        <div class="page-header-menu">
+          <ul>
+            <li><a href="#" class="btn2">Home</a></li>
+            <li><a href="Fujiki-kiyaku.html" class="btn4">ご利用規約</a></li>
+            <li><a href="#" class="btn4">お問い合わせ</a></li>
+            <li><a href="Fujiki-access.html" class="btn4">アトリエフジキへのアクセス</a></li>
+          </ul>
+        </div>
+        <div class="page-header__info page-header-info">
+          <div class="page-header-info__txt">
+            <span>TEL 00-0000-0000</span> <span>受付時間 平日 9:00〜17:00</span>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main-content">
+      <div class="main-visual">
+        <img class="image-main" src="IMG_4269.PNG" alt="外見">
+        <h2 class="main-visual__ttl"></h2>
+      </div>
+      <section class="intro-section">
+        <div class="intro-section__header section-header">
+          <h3 class="section-header__ttl">section01の見出し</h3>
+        </div>
+        <nav class="intro-section__nav">
+          <div class="inr">
+            <ol>
+              <li>
+                <a href="#content1">1.テキストテキストテキスト</a>
+              </li>
+              <li>
+                <a href="#content2">2.テキストテキストテキスト</a>
+              </li>
+              <li>
+                <a href="#content3">3.テキストテキストテキスト</a>
+              </li>
+            </ol>
+          </div>
+        </nav>
+        <div class="intro-section__content">
+          <div class="intro-section__block" id="content1">
+            <div class="intro-section__img-area">
+              <img class="image" src="IMG_4270.PNG" alt="アトリエフジキの中身">
+            </div>
+            <div class="intro-section__txt-area">
+              <h4>1.テキストテキストテキストテキストテキスト</h4>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+          <div class="intro-section__block" id="content2">
+            <div class="intro-section__img-area">
+              <img class="image" src="IMG_4271.PNG" alt="お茶飲めます">
+            </div>
+            <div class="intro-section__txt-area">
+              <h4>2.テキストテキストテキストテキストテキスト</h4>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+          <div class="intro-section__block" id="content3">
+            <div class="intro-section__img-area">
+              <img class="image" src="IMG_4273.PNG" alt="金の鈴">
+            </div>
+            <div class="intro-section__txt-area">
+              <h4>3.テキストテキストテキストテキストテキスト</h4>
+              <p>テキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキストテキスト</p>
+            </div>
+          </div>
+        </div>
+        <div class="intro-section__contact">
+          <div class="inr">
+            <div class="contact-block">
+              <p class="contact-block__txt">TEL 00-0000-0000<span>（受付時間　平日　9:00〜17:00）</span></p>
+              <a class="contact-block__btn" href="">問い合わせボタン</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <div class="inr">
+        <p><small>© 2020 rikubon50</small></p>
+      </div>
+    </footer>
+    <div class="pagetop">↑</div>
+  </body>
+</html>

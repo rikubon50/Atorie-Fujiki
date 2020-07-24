@@ -1,0 +1,29 @@
+.map{
+  margin-top: 250px;
+  margin-left: 20%;
+}
+
+.logo {
+  padding-left: 100px;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+.a {
+  text-align: center;
+  margin-top: 100px;
+  }
+
+.b{
+  margin-left: 40%;
+  margin-bottom: 100px;
+  
+}
+.c{
+  padding: 10px; 
+  margin-bottom: 10px; 
+  border: 1px solid #333333; 
+  background-color: gray;
+  color: aliceblue;
+}
